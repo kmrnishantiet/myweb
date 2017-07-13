@@ -48,13 +48,12 @@
 			<url>http://13.58.232.22:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
   	</distributionManagement>
-<!--	<build>
+	<build>
 		<finalName>myweb</finalName>
 		<plugins>
 		 <plugin>
 			<groupId>org.jacoco</groupId>
 			<artifactId>jacoco-maven-plugin</artifactId>
-			 <version>0.1.0</version>
 		</plugin> 
 
 			
@@ -87,7 +86,7 @@
           </plugin>
         </plugins>
       </build>
--->
+
       <dependencies>
         <dependency>
           <groupId>org.sonarsource.java</groupId>
